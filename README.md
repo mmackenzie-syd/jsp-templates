@@ -36,7 +36,7 @@ and then run the JAR file, as follows:
 ```
 java -jar target/gs-serving-web-content-0.1.0.jar
 ```
-In a browser, navigate to localhost:8080 to view the servlet response.
+In a browser, navigate to localhost:8080 to view the response.
 
 ### References:
 https://www.mytroubleshooting.com/2018/06/spring-boot-mvc-jsp-visual-studio-code.html
