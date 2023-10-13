@@ -8,19 +8,19 @@ Create a "demo" template using Spring Initializr. Navigate to Spring Initializr 
 
 In the pom.xml file add the "tomcat-embed-jasper" and "jstl" dependencies as shown below. These are for transforming the jsp page into html.
 
-![pom file](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/pom-file.png)
+![pom file](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/pom-xml.png)
 
 Create a "webapp" folder in the "src/main" folder and add an "index.jsp" page as shown. The "webapp" folder follows the standard, Apache naming convention:
 
-![jsp page](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/index.png)
+![jsp page](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/index-jsp.png)
 
 Add a "HomeController" class corresponding to the "index" jsp page as shown:
 
-![Home Controller](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/controller.png)
+![Home Controller](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/home-controller.png)
 
 Modify the "applications.properties" file to tell maven to use the jsp templating. The default folder for the jsp files is "webapp", but another folder can be pointed to, for example "views", by adding the "spring.mvc.view.prefix: /views" in the properties file.
 
-![properties](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/properties.png)
+![properties](https://raw.githubusercontent.com/mmackenzie-syd/jsp-templates/main/application-properties.png)
 
 
 ### Running the App
