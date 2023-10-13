@@ -1,1 +1,39 @@
 # jsp-templates
+### Description
+This app demonstrates how to use jsp templates in Spring-Boot
+### Procdeure
+Create a "demo" template using Spring Initializr. Navigate to Spring Initializr at [Spring Initializr](https://start.spring.io/), then select Maven, and add the "Spring Web" dependency. Click on the Generate button to download the template
+
+![Spring Initializr](https://raw.githubusercontent.com/mmackenzie-syd/java-servlets/main/spring-boot-initiliser.png)
+
+In the pom.xml file add the "tomcat-embed-jasper" and "jstl" dependencies as shown below. These are for transforming the jsp page into html.
+
+![DempApplication Class](https://raw.githubusercontent.com/mmackenzie-syd/java-servlets/main/demo-application.png)
+
+Create a "webapp" folder in the "src/main" folder and add an "index.jsp" page as shown.
+
+The "webapp" folder follows the standard, Apache naming convention.
+
+Add a "HomeController" class corresponding to the "index" jsp page as shown:
+
+
+
+![Location Class](https://raw.githubusercontent.com/mmackenzie-syd/java-servlets/main/location.png)
+
+### Running the App
+You can run the application by using 
+```
+./mvnw spring-boot:run
+```
+Alternatively, you can build the JAR file with 
+```
+./mvnw clean package
+``` 
+and then run the JAR file, as follows:
+```
+java -jar target/gs-serving-web-content-0.1.0.jar
+```
+In a browser, navigate to localhost:8080 to view the servlet response.
+
+### References:
+https://www.mytroubleshooting.com/2018/06/spring-boot-mvc-jsp-visual-studio-code.html
