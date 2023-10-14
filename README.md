@@ -1,7 +1,7 @@
 # jsp-templates
 ### Description
 This app demonstrates how to use jsp templates in Spring-Boot. It is based on an example from the Blogger site.
-### Procdeure
+### Procedure
 Create a "demo" template using Spring Initializr. Navigate to Spring Initializr at [Spring Initializr](https://start.spring.io/), then select Maven, and add the "Spring Web" dependency. Click on the Generate button to download the template
 
 ![Spring Initializr](https://raw.githubusercontent.com/mmackenzie-syd/java-servlets/main/spring-boot-initiliser.png)
